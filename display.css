@@ -7,11 +7,12 @@ div, span {
 
 div {
     background-color: red;
+    /* inline-block로 변경 */
+    display: inline-block;
 }
 
 span {
     background-color: blue;
-    
     /* block-level로 변경 */
     display: block;
 }
