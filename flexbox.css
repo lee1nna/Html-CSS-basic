@@ -1,12 +1,18 @@
-b
-
 .container {
     background: beige;
     height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* flex-flow: column nowrap; */
+    justify-content: flex-start; /* main axis */
+    align-items: center;
 }
 
 .item {
-
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
 }
 
 .item1 {
