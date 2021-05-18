@@ -1,45 +1,12 @@
-header {
+nav {
+    background-color: darkgrey;
     display: flex;
-    position: column;
-    justify-content : space-between;
 }
 
 ul {
-    /* 불릿 제거 */
     list-style: none;
-    /* 왼쪽 들여쓰기 제거 */
-    padding-left: 0px;
-    /* 수평축 기준으로 정렬 */
-    display: inline-block;
-    justify-content: center;
 }
 
-li {
-    display: inline-block;
-}
-
-nav {
-    display: inline-block;
-}
-
-img {
-    width: 100px;
-    height: 100px;
-}
-
-#burger {
-    width: 100px;
-    height: 100px;
-}
-
-#twitter {
-    justify-content: flex-end;
-    width: 20px;
-    height: 20px;
-}
-
-#facebook {
-    justify-content: flex-end;
-    width: 30px;
-    height: 30px;
+a {
+    text-decoration: none;
 }
