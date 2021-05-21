@@ -1,5 +1,5 @@
 header {
-    display: flex;
+    display: inline-block;
     position: column;
     justify-content : space-between;
 }
