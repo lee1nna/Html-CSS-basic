@@ -1,19 +1,47 @@
-<<<<<<< HEAD
+* {
+    font-family: 'Farro', sans-serif;
+}
+
 header {
-    display: inline-block;
+    display: flex;
     position: column;
     justify-content : space-between;
-=======
-nav {
-    background-color: darkgrey;
-    display: flex;
+}
 
+nav {
+    justify-content: space-between;
+    background-color: pink;
+    display: flex;
+}
+
+div {
+}
+
+nav .nav_logo {
+    color: white;
+    font-size: 24pt;
+}
+
+.nav_logo i {
+    color: palevioletred;
 }
 
 ul {
+    display: flex;
+}
+
+.nav_list ul {
+    font-size: 15pt;
+    list-style: none;
+}
+
+.nav_icons ul {
+    font-size: 15pt;
     list-style: none;
 }
 
 a {
+    color: white;
     text-decoration: none;
 }
+
