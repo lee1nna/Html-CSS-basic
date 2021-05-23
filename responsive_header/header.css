@@ -74,13 +74,27 @@ a {
         align-items: flex-start;
     }
     .nav_list {
+        width: 100%;
+    }
+
+    .nav_list ul {
         flex-direction: column;
-        /* align-items: center;
-        width: 100%; */
+        align-items: center;
     }
 
     .nav_list li :hover{
         background-color: palevioletred;
         border-radius: 4px;
+    }
+
+    .nav_list a {
+        padding: 0px 768px;
+    }
+
+    .nav_icons {
+        width: 100%;
+    }
+    .nav_icons ul {
+        align-items: center;
     }
 }
