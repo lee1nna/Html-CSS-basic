@@ -12,13 +12,19 @@ header {
     position: column;
 }
 
+a {
+    padding: 8px 8px;
+    color: white;
+    text-decoration: none;
+}
+
 .navbar {
+    display: flex;
     justify-content: space-between;
     /* 수직축 가운데로 정렬*/
     align-items: center;
     padding: 8px 12px;
     background-color: pink;
-    display: flex;
 }
 
 nav .nav_logo {
@@ -54,12 +60,6 @@ ul {
     padding: 8px 8px;
 }
 
-a {
-    padding: 8px 8px;
-    color: white;
-    text-decoration: none;
-}
-
 .nav_list li :hover {
     /* background-color: palevioletred;
     /* 끝부분을 둥글게 처리 */
@@ -69,6 +69,7 @@ a {
 }
 
 @media screen and (max-width: 768px) {
+
     .navbar {
         flex-direction: column;
         align-items: flex-start;
@@ -92,9 +93,7 @@ a {
     }
 
     .nav_icons {
-        width: 100%;
-    }
-    .nav_icons ul {
         align-items: center;
     }
+
 }
