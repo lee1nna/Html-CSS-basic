@@ -68,6 +68,10 @@ ul {
     text-shadow: 3px 3px palevioletred;
 }
 
+#hamlogo {
+    display: none;
+}
+
 @media screen and (max-width: 768px) {
 
     .navbar {
@@ -96,4 +100,8 @@ ul {
         align-items: center;
     }
 
+    #hamlogo {
+        display: inline-block;
+        justify-items: right;
+    }
 }
