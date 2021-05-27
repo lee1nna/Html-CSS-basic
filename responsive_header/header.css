@@ -1,3 +1,10 @@
+:root {
+    --text-color: white;
+    --background-color: 
+    --accent-color: 
+}
+
+
 * {
     font-family: 'Farro', sans-serif;
 }
@@ -42,7 +49,7 @@ ul {
 }
 
 
-.nav_list ul {
+.nav_list {
     padding-left: 0;
     display: flex;
 }
@@ -51,14 +58,13 @@ ul {
     padding: 8px 12px;
 }
 
-.nav_icons ul {
-    margin-right: 0;
+.nav_icons {
+    padding-left: 0;
     display: flex;
-    padding: 8px 8px;
 }
 
 .nav_icons li {
-    padding: 8px 8px;
+    padding: 8px 12px;
 }
 
 .nav_list li :hover {
@@ -69,8 +75,11 @@ ul {
     text-shadow: 3px 3px palevioletred;
 }
 
-#hamlogo {
+.toogleBtn {
     display: none;
+    position: absolute;
+    right: 20px;
+    font-size: 24px;
 }
 
 @media screen and (max-width: 768px) {
@@ -80,12 +89,10 @@ ul {
         align-items: flex-start;
     }
     .nav_list {
-        width: 100%;
-    }
-
-    .nav_list ul {
+        display: none;
         flex-direction: column;
         align-items: center;
+        width: 100%;
     }
 
     .nav_list li :hover{
@@ -98,12 +105,18 @@ ul {
     }
 
     .nav_icons {
+        display: none;
         justify-content: center;
         width: 100%;
     }
 
-    #hamlogo {
-        display: inline-block;
-        position: right;
+    .toogleBtn {
+        display: block;
     }
+
+    .nav_list.active,
+    .nav_icons.active {
+        display: flex;
+    }
+
 }
