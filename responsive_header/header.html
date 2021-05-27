@@ -9,31 +9,31 @@
     <link href="https://fonts.googleapis.com/css2?family=Farro&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/fdc74361a1.js" crossorigin="anonymous"></script>
     <title>Responsive Navbar</title>
+    <script src="main.js" defer></script>
 </head>
 <body>
     <nav class="navbar">
         <div class="nav_logo">
             <i class="fab fa-accusoft"></i>
             <a href="#"><b>HN</b>Soft</a>
-            <i class="fas fa-bars" id="hamlogo"></i>
         </div>
 
-        <div class="nav_list">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Gallery</a></li>
-                <li><a href="#">Weddings</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">bookings</a></li>
-            </ul>
-        </div>
+        <ul class="nav_list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Weddings</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">bookings</a></li>
+        </ul>
 
-        <div class="nav_icons">
-            <ul>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-facebook-square"></i></a>
-            </ul>
-        </div>
+        <ul class="nav_icons">
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+        </ul>
+
+        <a href="#" class="toogleBtn">
+            <i class="fas fa-bars"></i>
+        </a>
     </nav>
 </body>
 </html>
